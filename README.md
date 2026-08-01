@@ -1,2 +1,2 @@
-# Hotbox-510
-Attempt at creating a UI which interfaces to a raspberry pi pico dubbed the "hotbox-510". A device which can potentially be used as a soldering iron, vaping device, box mod, basically any device that needs variable voltage.
+# Hbox-510
+Attempt at creating a UI which interfaces to a raspberry pi pico dubbed the "hbox-510". The device is essentially a variable voltage multi tool which can have different "tools" attached to it via a hot-swappable magnetic 510 connector (hence the name). This includes soldering iron tips, flashlights, lasers, atomizers, and a plethora of other devices given they use a standard 510 thread connector.
