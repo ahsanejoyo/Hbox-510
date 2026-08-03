@@ -25,9 +25,9 @@ The system utilizes Pulse-Width Modulation (PWM) through a power MOSFET driver c
 
 | Parameter | Specification |
 | :--- | :--- |
-| **Microcontroller** | Raspberry Pi Pico (RP2040 @ 133MHz w/ 8MB FLASH)[cite: 1] |
-| **Display** | 0.96" SSD1306 OLED (128x64, I2C Interface)[cite: 1] |
-| **Power Stage** | Logic-Level N-Channel MOSFET driven by RP2040 PWM[cite: 1] |
+| **Microcontroller** | Raspberry Pi Pico (RP2040 @ 133MHz w/ 8MB FLASH) |
+| **Display** | 0.96" SSD1306 OLED (128x64, I2C Interface) |
+| **Power Stage** | Logic-Level N-Channel MOSFET driven by RP2040 PWM |
 | **Input Input Voltage** | 1.8V – 5.0V Li-Ion / USB Power |
 | **Connector Standard** | 510-Threaded Magnetic Connector |
-| **Firmware Language** | CircuitPython [cite: 1] |
+| **Firmware Language** | CircuitPython |
