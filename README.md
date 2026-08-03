@@ -1,2 +1,18 @@
-# Hbox-510
-Attempt at creating a UI which interfaces to a raspberry pi pico dubbed the "Hbox-510". The device is essentially a variable voltage multi tool which can have different "tools" attached to it via a hot-swappable magnetic 510 connector (hence the name). This includes soldering iron tips, flashlights, lasers, atomizers, and a plethora of other devices given they use a standard 510 thread connector.
+# Swapbox-510
+
+<img width="2733" height="1632" alt="IMG_049" src="https://github.com/user-attachments/assets/b1e31542-3be3-44ab-8a25-183d2569582b" />
+<img width="480" height="277" alt="MultiBox" src="https://github.com/user-attachments/assets/f1004bc5-6793-46dc-8934-4f2187bfbaaa" />
+<img width="3024" height="3296" alt="IMG_0497" src="https://github.com/user-attachments/assets/acd06389-a84e-4d46-8d64-c3e5a114f6b8" />
+
+The Swapbox-510 is an embedded variable voltage controller powered by the Raspberry Pi Pico (RP2040). It features a custom user interface driven by a 128x64 OLED display and buttons, delivering modular power regulation over a high-current, 510-threaded magnetic interface. 
+
+The system utilizes Pulse-Width Modulation (PWM) through a power MOSFET driver circuit to deliver precise, regulated energy bursts to modular attachments—including micro-soldering tips, high-intensity LED light tools, and custom resistive heating elements.
+
+| Parameter | Specification |
+| :--- | :--- |
+| **Microcontroller** | Raspberry Pi Pico (RP2040 @ 133MHz w/ 8MB FLASH)[cite: 1] |
+| **Display** | 0.96" SSD1306 OLED (128x64, I2C Interface)[cite: 1] |
+| **Power Stage** | Logic-Level N-Channel MOSFET driven by RP2040 PWM[cite: 1] |
+| **Input Input Voltage** | 1.8V – 5.0V Li-Ion / USB Power |
+| **Connector Standard** | 510-Threaded Magnetic Connector |
+| **Firmware Language** | CircuitPython [cite: 1] |
