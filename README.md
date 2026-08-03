@@ -1,8 +1,23 @@
 # Swapbox-510
 
-<img width="2733" height="1632" alt="IMG_049" src="https://github.com/user-attachments/assets/b1e31542-3be3-44ab-8a25-183d2569582b" />
-<img width="480" height="277" alt="MultiBox" src="https://github.com/user-attachments/assets/f1004bc5-6793-46dc-8934-4f2187bfbaaa" />
-<img width="3024" height="3296" alt="IMG_0497" src="https://github.com/user-attachments/assets/acd06389-a84e-4d46-8d64-c3e5a114f6b8" />
+<!-- Main Hero Image -->
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b1e31542-3be3-44ab-8a25-183d2569582b" alt="Swapbox-510 Physical Build" width="650" />
+</p>
+
+<!-- 2-Column Side-by-Side Table -->
+<table align="center">
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://github.com/user-attachments/assets/f1004bc5-6793-46dc-8934-4f2187bfbaaa" alt="CAD Design" width="100%" />
+      <br><sub><b>3D CAD Enclosure Model</b></sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="https://github.com/user-attachments/assets/acd06389-a84e-4d46-8d64-c3e5a114f6b8" alt="OLED Display Hardware" width="100%" />
+      <br><sub><b>Assembled Model</b></sub>
+    </td>
+  </tr>
+</table>
 
 The Swapbox-510 is an embedded variable voltage controller powered by the Raspberry Pi Pico (RP2040). It features a custom user interface driven by a 128x64 OLED display and buttons, delivering modular power regulation over a high-current, 510-threaded magnetic interface. 
 
